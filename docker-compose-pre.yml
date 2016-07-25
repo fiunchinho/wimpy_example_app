@@ -1,0 +1,5 @@
+version: '2'
+services:
+  app:
+    image: wimpy_example_app
+    command: ./code/app.sh

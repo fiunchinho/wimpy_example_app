@@ -1,0 +1,7 @@
+version: '2'
+services:
+  app:
+    image: alpine:3.4
+    volumes:
+      - "$PWD/app.sh:/code/app.sh"
+    command: ./code/app.sh
