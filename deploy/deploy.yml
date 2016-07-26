@@ -1,5 +1,5 @@
 ---
 
 wimpy_project: wimpy_example_app
-wimpy_docker_image_name: wimpy_example_app
+wimpy_docker_image_name: fiunchinho/wimpy_example_app
 wimpy_before_build_tasks_file: "{{ ansible_env.PWD }}/deploy/example.yml"
